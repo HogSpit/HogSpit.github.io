@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HogSpit's Roblox scripting portfolio.">
+  <meta name="theme-color" content="#101114">
+
+  <title>HogSpit — Roblox Scripter</title>
+
+  <link rel="icon" href="assets/site-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="HogSpit home">
+        <span class="brand-mark" aria-hidden="true">HS</span>
+        <span data-profile="name">HogSpit</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#services">Skills</a>
+        <a href="#about">About</a>
+      </div>
+
+      <button class="theme-button" id="theme-button" type="button" aria-label="Switch color theme">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero shell" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span data-profile="availability">Available for Roblox commissions</span>
+        </p>
+
+        <h1>
+          I script Roblox systems
+          <span>that feel finished.</span>
+        </h1>
+
+        <p class="hero-description" data-profile="intro">
+          I build reliable gameplay systems, clean client-server logic, and fixes that hold up outside Studio.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" data-link="roblox" href="#" target="_blank" rel="noreferrer">
+            Roblox profile
+            <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="button button-secondary" href="#work">
+            View my work
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <ul class="quick-facts" id="quick-facts" aria-label="Highlights"></ul>
+      </div>
+
+      <aside class="script-card" aria-label="Scripting specialties">
+        <div class="window-bar">
+          <div class="window-dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="window-title">HogSpit.server.lua</span>
+        </div>
+
+        <pre aria-hidden="true"><code><span class="code-muted">-- What I focus on</span>
+<span class="code-keyword">local</span> Scripter = {
+  <span class="code-property">GameplaySystems</span> = <span class="code-boolean">true</span>,
+  <span class="code-property">ClientServerLogic</span> = <span class="code-boolean">true</span>,
+  <span class="code-property">Debugging</span> = <span class="code-boolean">true</span>,
+  <span class="code-property">CleanHandoffs</span> = <span class="code-boolean">true</span>,
+}
+
+<span class="code-keyword">return</span> Scripter</code></pre>
+
+        <div class="script-card-footer">
+          <span>Luau</span>
+          <span>Roblox Studio</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section shell" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">Selected work</p>
+          <h2>Projects, shown clearly.</h2>
+        </div>
+        <p>
+          Video demos, screenshots, and a quick explanation of what I handled.
+        </p>
+      </div>
+
+      <div class="projects-grid" id="projects-grid"></div>
+    </section>
+
+    <section class="section shell" id="services">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">What I do</p>
+          <h2>Roblox scripting services.</h2>
+        </div>
+        <p>
+          Focused work with clear scope, regular updates, and code that is easy to continue using.
+        </p>
+      </div>
+
+      <div class="services-grid" id="services-grid"></div>
+    </section>
+
+    <section class="section about-section shell" id="about">
+      <div class="about-card">
+        <p class="section-label">About me</p>
+        <h2 data-profile="aboutTitle">A scripter who cares about the final result.</h2>
+        <p data-profile="about"></p>
+      </div>
+
+      <div class="process-card">
+        <p class="section-label">How I work</p>
+        <ol id="process-list"></ol>
+      </div>
+    </section>
+
+    <section class="cta-section shell">
+      <div class="cta-card">
+        <div>
+          <p class="section-label">Have a project?</p>
+          <h2>Send the scope and a reference.</h2>
+          <p>
+            Include what is already built, what needs scripting, your deadline, and your budget.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <a class="button button-primary" data-link="contact" href="#" target="_blank" rel="noreferrer">
+            <span data-profile="contactLabel">Contact me</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a class="text-link" data-link="roblox" href="#" target="_blank" rel="noreferrer">
+            View Roblox profile
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <p>© <span id="year"></span> <span data-profile="name">HogSpit</span></p>
+    <p>Roblox scripting portfolio</p>
+  </footer>
+</body>
+</html>

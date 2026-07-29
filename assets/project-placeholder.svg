@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#ffffff" stroke-opacity=".1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="3">
+    <rect x="320" y="175" width="560" height="325" rx="26"/>
+    <path d="m443 402 101-105 72 73 54-52 99 95"/>
+    <circle cx="730" cy="275" r="37"/>
+  </g>
+</svg>
